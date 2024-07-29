@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// *,
+// *::before,
+// *::after {
+//   outline: 1px solid #000;
+// }
+
+body {
+  line-height: $lh-base;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}

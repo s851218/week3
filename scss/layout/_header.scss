@@ -1,0 +1,109 @@
+//nav
+.bg-nav {
+  background: $color-primary;
+
+  .container-fluid {
+    max-width: 1320px;
+    margin: 0 auto;
+
+    .logo {
+      width: 80px;
+      height: 49px;
+      display: block;
+    }
+  }
+
+  .nav-sm-item:hover {
+    color: $color-black;
+    transition: color 0.15s ease-in-out;
+  }
+
+  .py-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .ps-12 {
+    padding-left: 12px;
+  }
+
+  .pe-12 {
+    padding-right: 12px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .nav-sm-list {
+      width: 50%;
+      border: 1px solid $color-white;
+
+      .nav-sm-item {
+        display: block;
+        text-align: center;
+        padding: 12px 0;
+      }
+    }
+
+    .py-16 {
+      padding: 16px 0;
+    }
+
+    .ps-12 {
+      padding-left: 12px;
+    }
+
+    .pe-sm-0 {
+      padding-right: 0;
+    }
+
+    .w-100 {
+      width: 100%;
+    }
+
+    .gap-sm-0 {
+      gap: 0;
+    }
+  }
+}
+
+//header
+.bg-home-header {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-image: url(/images/home-header.png);
+
+  @include pad {
+    background-image: url(/images/home-header-sm.png);
+  }
+
+  @include mobile {
+    height: 396px;
+  }
+
+  .header-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+  }
+
+  .header-title-1 {
+    font-size: $font-size-4;
+    color: $color-dark-red;
+    font-weight: $font-weight-bold;
+
+    @include mobile {
+      font-size: $font-size-base;
+    }
+  }
+
+  .header-title-2 {
+    font-size: $font-size-2;
+    color: $color-dark-red;
+    font-weight: $font-weight-bold;
+
+    @include mobile {
+      font-size: $font-size-6;
+    }
+  }
+}
