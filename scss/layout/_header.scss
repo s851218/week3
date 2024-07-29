@@ -69,10 +69,10 @@
 .bg-home-header {
   width: 100%;
   height: calc(100vh - 80px);
-  background-image: url(/images/home-header.png);
+  background-image: url(../images/home-header.png);
 
   @include pad {
-    background-image: url(/images/home-header-sm.png);
+    background-image: url(../images/home-header-sm.png);
   }
 
   @include mobile {

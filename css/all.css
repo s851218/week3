@@ -593,11 +593,11 @@ body {
 .bg-home-header {
   width: 100%;
   height: calc(100vh - 80px);
-  background-image: url(/images/home-header.png);
+  background-image: url(../images/home-header.png);
 }
 @media screen and (max-width: 992px) {
   .bg-home-header {
-    background-image: url(/images/home-header-sm.png);
+    background-image: url(../images/home-header-sm.png);
   }
 }
 @media screen and (max-width: 576px) {
@@ -754,35 +754,35 @@ body {
   }
 }
 .bg-co {
-  background-image: url(/images/index-bg.png);
+  background-image: url(../images/index-bg.png);
   max-width: 100%;
   padding: 80px 0;
 }
 @media screen and (max-width: 576px) {
   .bg-co {
-    background-image: url(/images/index-bg-sm.png);
+    background-image: url(../images/index-bg-sm.png);
   }
 }
 
 .co-img-1 {
   max-width: 100%;
   height: 240px;
-  background-image: url(/images/home-section4-1.png);
+  background-image: url(../images/home-section4-1.png);
 }
 @media screen and (max-width: 576px) {
   .co-img-1 {
-    background-image: url(/images/home-section4-1-sm.png);
+    background-image: url(../images/home-section4-1-sm.png);
   }
 }
 
 .co-img-2 {
   max-width: 100%;
   height: 240px;
-  background-image: url(/images/home-section4-2.png);
+  background-image: url(../images/home-section4-2.png);
 }
 @media screen and (max-width: 576px) {
   .co-img-2 {
-    background-image: url(/images/home-section4-2-sm.png);
+    background-image: url(../images/home-section4-2-sm.png);
   }
 }
 
@@ -822,7 +822,7 @@ body {
 
 @media screen and (max-width: 992px) {
   .bg-co {
-    background-image: url(/images/index-bg-md.png);
+    background-image: url(../images/index-bg-md.png);
   }
 }
 .bg-customer {
